@@ -168,7 +168,6 @@ st.markdown("""
     }
     .subtitle-text {
         font-size: 1.1rem;
-        color: mediumvioletred;
         opacity: 0.9;
         margin-top: 8px;
     }
@@ -176,7 +175,6 @@ st.markdown("""
     /* Analytics card styling */
     .analytics-card {
         background-color: white;
-        color: mediumvioletred;
         padding: 25px;
         border-radius: 12px;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
@@ -399,8 +397,8 @@ def display_analytics():
             """
             <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 4px solid #6c5ce7;'>
                 <h4 style='color: #6c5ce7; margin-top: 0;'>Analytics Preview</h4>
-                <p>After completing quizzes, you'll see detailed analytics including:</p>
-                <ul>
+                <p style='color:mediumvioletred;'>After completing quizzes, you'll see detailed analytics including:</p>
+                <ul style='color: mediumvioletred;'>
                     <li>Performance trends over time</li>
                     <li>Topic strengths and weaknesses</li>
                     <li>Difficulty progression</li>
