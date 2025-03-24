@@ -769,7 +769,7 @@ def main():
     """
     # Sidebar navigation and information
     with st.sidebar:
-        st.image("https://img.icons8.com/fluency/96/000000/quiz.png", width=80)
+        st.image("mcqimage.jpg", width=80)
         st.markdown("<h1 style='text-align: center; color: #6c5ce7;'>Adaptive MCQ Generator</h1>", unsafe_allow_html=True)
         
         st.divider()
