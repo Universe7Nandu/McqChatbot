@@ -96,6 +96,7 @@ st.markdown("""
         border-radius: 8px;
         border: 1px solid #e0e0e0;
         background-color: white;
+        color:black;
         transition: all 0.2s ease;
         font-size: 16px;
         cursor: pointer;
