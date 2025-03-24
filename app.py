@@ -73,9 +73,9 @@ st.markdown("""
         margin: 0 auto;
     }
     
-    p{
-    color: mediumvioletred;
-    }
+    # p{
+    # color: mediumvioletred;
+    # }
     
     /* Question card styling */
     .question-card {
@@ -168,7 +168,7 @@ st.markdown("""
     }
     .subtitle-text {
         font-size: 1.1rem;
-        color:black;
+        color: mediumvioletred;
         opacity: 0.9;
         margin-top: 8px;
     }
@@ -176,6 +176,7 @@ st.markdown("""
     /* Analytics card styling */
     .analytics-card {
         background-color: white;
+        color: mediumvioletred;
         padding: 25px;
         border-radius: 12px;
         box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
