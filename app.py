@@ -73,6 +73,10 @@ st.markdown("""
         margin: 0 auto;
     }
     
+    p,ul,li{
+    color: mediumvioletred;
+    }
+    
     /* Question card styling */
     .question-card {
         background-color: white;
