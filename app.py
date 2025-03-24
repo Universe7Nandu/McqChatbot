@@ -140,6 +140,7 @@ st.markdown("""
     /* Explanation box styling */
     .explanation-box {
         background-color: #f8f9fa;
+        color:black;
         padding: 18px;
         border-radius: 8px;
         margin-top: 18px;
