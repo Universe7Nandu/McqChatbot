@@ -73,7 +73,7 @@ st.markdown("""
         margin: 0 auto;
     }
     
-    p,ul,li{
+    p{
     color: mediumvioletred;
     }
     
