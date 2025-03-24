@@ -753,7 +753,7 @@ def display_analytics():
             f"""
             <div style='background-color: #f8f9fa; padding: 20px; border-radius: 10px; margin: 20px 0; border-left: 5px solid #6c5ce7;'>
                 <h4 style='color: #6c5ce7; margin-top: 0;'>🎓 Learning Recommendations</h4>
-                <p>Based on your performance in the "{last_quiz['topic']}" quiz:</p>
+                <p style='color: #6c5ce7';>Based on your performance in the "{last_quiz['topic']}" quiz:</p>
                 <ul>
                     {"<li>Consider moving to a <strong>harder difficulty</strong> for this topic.</li>" if last_quiz['accuracy'] > 0.8 else ""}
                     {"<li>You're doing well! Continue practicing at the current difficulty.</li>" if 0.6 <= last_quiz['accuracy'] <= 0.8 else ""}
