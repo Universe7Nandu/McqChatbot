@@ -164,6 +164,7 @@ st.markdown("""
     }
     .subtitle-text {
         font-size: 1.1rem;
+        color:black;
         opacity: 0.9;
         margin-top: 8px;
     }
@@ -799,8 +800,8 @@ def main():
         
         # GitHub link
         st.markdown("<h3 style='color: #6c5ce7;'>🔗 Links</h3>", unsafe_allow_html=True)
-        st.markdown("[GitHub Repository](https://github.com/yourusername/adaptive-mcq-generator)")
-        st.markdown("[Report Issues](https://github.com/yourusername/adaptive-mcq-generator/issues)")
+        st.markdown("[GitHub Repository](https://github.com/Universe7Nandu/McqChatbot)")
+        st.markdown("[Report Issues](https://github.com/Universe7Nandu/McqChatbot/issues)")
     
     # Main content area
     if page == "🧠 Generate MCQs":
