@@ -41,7 +41,7 @@ if not groq_api_key:
 
 if groq_api_key:
     llm = ChatGroq(
-        model_name="llama3-70b-8192",
+        model_name="mixtral-8x7b-32768",
         temperature=0.5,
         groq_api_key=groq_api_key
     )
